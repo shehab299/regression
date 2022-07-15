@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 
 
-data = pd.read_csv('data.txt' , names = ['size' , 'price'] , header = None)
+data = pd.read_csv('data1.txt' , names = ['size' , 'price'] , header = None)
 data.insert(0,'ones',1)
 
 m = data.shape[1]
