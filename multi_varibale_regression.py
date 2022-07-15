@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 
-path = 'data.txt'
+path = 'data2.txt'
 
 
 data = pd.read_csv(path , header = None , names = ['length' , 'width' , 'price'])
